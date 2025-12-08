@@ -1,6 +1,14 @@
 <html>
 <head>
 <hr />
+	<table style="margin-left: auto; margin-right: auto; border: 1px solid black;">
+			<tr>
+	<th> <h1>ImperfectChaos' very own slice of Web</th>
+		<th> <a href="https://ImperfectChaos.dev">
+		<img src="Img/HomePage/MetalA.webp" alt="Metal Sonic Hi" width="130"/> </h1> </th>
+			</tr>
+	</table>
+	<hr>
 		<title>Social Circle</title>
 </head>
 	
@@ -8,6 +16,9 @@
 	<style>
 	
 		h1 {color:white;}
+		
+		h2 {color:black;}
+		h2 {text-align:center;}
 		
 		body {background-color: black;}
 		
@@ -19,15 +30,46 @@
 			<p> <img src="Img/SocialCircle/SMP_Logo.png" alt="Social Circle Logo" width="750"/> </p> 		
 <div/>
 
-<div class="DownloadLinks"> 		
-	<table style="margin-left: auto; margin-right: auto; border: 1px solid black;">
-			<tr>
-	<th> <h1>ImperfectChaos' very own slice of Web</th>
-		<th> <img src="Img/HomePage/MetalA.webp" alt="Metal Sonic Hi" width="150"/> </h1> </th>
-			</tr>
-	</table>
-<div/>
+<body>
+    <div>
+        <img src="https://yt3.googleusercontent.com/w2SnTBbrcWenO59WsuG5qDGvnUIWcjrj7MOq1azKkRjEtnFZHEEbyT8dZgmvFX8mttv43atm=s160-c-k-c0x00ffffff-no-rj"  id="server-icon"/>
+        <div>
+            <h1 id="server-ip">imperfectchaos.socialcircle.dev</h1>
+            <div>
+				<div>
+				<span  id="motd">A beautiful minecraft server</span>
+				</div>
+            <div><span id="player-count">290</span> Players Online</div>
+        </div>
+    </div>
+<script>
+    function initServerData(serverIp,serverPort){
+        const serverIpElement = document.getElementById('server-ip');
+        serverIpElement.innerHTML = serverIp;
+        fetch('https://mcapi.us/server/status?ip='+serverIp+'&port='+serverPort)
+        .then(response => response.json())
+        .then(data => handleServerStatus(data));
+  
+        function handleServerStatus(data){
+            if(data.status=='error'){
+                console.log(data.error);
+                return false;
+            }
+            const motd = document.getElementById("motd");
+            motd.innerHTML = data.motd;
 
+            const playerCounter = document.getElementById("player-count");
+            playerCounter.innerHTML = data.players.now;
+
+            const logo = document.getElementById("server-icon");
+            logo.src = data.favicon;
+        } 
+    }
+
+    initServerData("socialcircle.imperfectchaos.dev","42069");
+</script>
+</body>
+	
 <div class="BottomNote">
   <hr />
 		<p>Welcome to my little part of the Internet <3<p/
