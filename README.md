@@ -30,7 +30,7 @@ A Static Webpage to call my home, because I hate the modern web that much.
 
 
 ## Roadmap
-- More Pages (Including a blog!)
+- More Pages (Including a 404 page and a blog!)
 
 - Account and Comment system
 
