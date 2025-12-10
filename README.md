@@ -20,9 +20,10 @@ A Static Webpage to call my home, because I hate the modern web that much.
 ## Features
 
 - A home page
+- 404 Page
 - Dark mode (Light mode currently not supported)
 - Cross platform
-- A second (currently inaccessible) page
+- A third (currently inaccessible) page
 - Images as Hyperlinks
 - Text strings
 - SVG and imbedded images
@@ -30,9 +31,9 @@ A Static Webpage to call my home, because I hate the modern web that much.
 
 
 ## Roadmap
-- More Pages (Including a 404 page and a blog!)
+- More Pages (Including a blog!)
 
-- Account and Comment system
+- Account and Comment system (For said blog)
 
 - Live Playercount for my Private Minecraft Server
 
