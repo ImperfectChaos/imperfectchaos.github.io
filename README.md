@@ -23,7 +23,7 @@ A Static Webpage to call my home, because I hate the modern web that much.
 - 404 Page
 - Dark mode (Light mode currently not supported)
 - Cross platform
-- A third (currently inaccessible) page
+- A third and Fourth (currently inaccessible) page
 - Images as Hyperlinks
 - Text strings
 - SVG and imbedded images
