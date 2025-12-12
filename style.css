@@ -1,10 +1,60 @@
-body {background-color: black;}
+:root{
+    --base-color: black;
+    --base-varient: black;
+    --text-color: white;
+    --secondary-text: white;
+    --test-color: green;
+     }
+.lightmode{
+    --base-color: white;
+    --base-varient: white;
+    --text-color: black;
+    --secondary-text: black;
+    --test-color: green;
+}
 
-h1 {color:white;}
+#LightModeSwitch{
+    height: 100px;
+    width: 100px;
+    background-color: var(--base-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    left: 10px;
+}
+#LightModeSwitch svg{
+    fill: var(--text-color);
+}
+#LightModeSwitch svg:last-child{
+    display: none;
+}
+.lightmode #LightModeSwitch svg:first-child{
+    display: none;
+}
+
+}
+.lightmode #LightModeSwitch svg:last-child{
+    display: block;
+}
+
+body {background-color: var(--base-color);}
+
+h1 {color: var(--text-color);}
 h1 {text-align:center;}
 
-h2 {color:white;}
+h2 {color:var(--text-color);}
 h2 {text-align:center;}
 
-p {color:white;}
+p {color:var(--text-color);}
 p {text-align:center;}
+p {font-size: 19px;}
+
+dl {color:var(--text-color);}
+dl {text-align:center;}
+dl {font-size: 19px;}
+
+table {margin-left: auto;}
+table {margin-right: auto;}
+table {border: transparent;}

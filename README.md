@@ -21,9 +21,10 @@ A Static Webpage to call my home, because I hate the modern web that much.
 
 - A home page
 - 404 Page
+- About me page
+- Page for my Private Minecraft Server
 - Dark mode (Light mode currently not supported)
 - Cross platform
-- A third and Fourth (currently inaccessible) page
 - Images as Hyperlinks
 - Text strings
 - SVG and imbedded images
