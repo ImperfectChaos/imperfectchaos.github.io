@@ -28,7 +28,8 @@ A Static Webpage to call my home, because I hate the modern web that much.
 - Images as Hyperlinks
 - Text strings
 - SVG and imbedded images
-- Broken Minecraft Server Playercount
+- FUNCTIONAL Minecraft Server Playercount
+- Minecraft Server Modpack Download
 - BUNNY BUTTON
 
 
