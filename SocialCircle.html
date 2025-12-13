@@ -20,17 +20,21 @@
 <div/>
 
 <body>
-    <div>
+    <div class="ServerInf">
         <img src="https://yt3.googleusercontent.com/w2SnTBbrcWenO59WsuG5qDGvnUIWcjrj7MOq1azKkRjEtnFZHEEbyT8dZgmvFX8mttv43atm=s160-c-k-c0x00ffffff-no-rj"  id="server-icon"/>
-        <div>
+        <div class="ServerInf0">
             <h1 id="server-ip">imperfectchaos.socialcircle.dev</h1>
-            <div>
-				<div>
+            <div class="ServerInf1">
+				<div class="ServerInf2">
 				<span  id="motd">A beautiful minecraft server</span>
 				</div>
-            <div><span id="player-count">290</span> Players Online</div>
+            <div><p> <span id="player-count">X</span> Players Online</p></div>
         </div>
     </div>
+	<div class="DownloadSC">
+		<p><a href="DLs/SocialCircle/SocialCircle-1.3.0.mrpack" download="SocialCircle-1.3.0"><img src="Img/SocialCircle/ScammyDL.png" alt="ModpackDL" width="150"/></a>
+		</a></p>
+	</div>
 <script>
     function initServerData(serverIp,serverPort){
         const serverIpElement = document.getElementById('server-ip');
