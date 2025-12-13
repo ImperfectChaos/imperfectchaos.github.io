@@ -29,6 +29,7 @@ A Static Webpage to call my home, because I hate the modern web that much.
 - Text strings
 - SVG and imbedded images
 - Broken Minecraft Server Playercount
+- BUNNY BUTTON
 
 
 ## Roadmap
