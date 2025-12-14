@@ -34,27 +34,32 @@
     display: none;
 }
 
-}
+
 .lightmode #LightModeSwitch svg:last-child{
     display: block;
 }
 
+@font-face {
+    font-family: 'Mania-SpeedySpikes';
+    src: url('Font/Mania-SpeedySpikes.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'ZXSpectrum-Style7';
+    src: url('Font/ZXSpectrum-Style7.ttf') format('truetype');
+  }
+
 body {background-color: var(--base-color);}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    text-align:center;
+    font-family: "Mania-SpeedySpikes";}
 
-h1 {color: var(--text-color);}
-h1 {text-align:center;}
+p, dl {color:var(--text-color);
+    text-align:center;
+    font-size: 18px;
+    font-family: "ZXSpectrum-Style7";}
 
-h2 {color:var(--text-color);}
-h2 {text-align:center;}
-
-p {color:var(--text-color);}
-p {text-align:center;}
-p {font-size: 19px;}
-
-dl {color:var(--text-color);}
-dl {text-align:center;}
-dl {font-size: 19px;}
-
-table {margin-left: auto;}
-table {margin-right: auto;}
-table {border: transparent;}
+table {margin-left: auto;
+margin-right: auto;
+border: transparent;}
