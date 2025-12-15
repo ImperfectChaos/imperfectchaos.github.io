@@ -58,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 p, dl {color:var(--text-color);
     text-align:center;
     font-size: 18px;
-    font-family: "ZXSpectrum-Style7";}
+    font-family: "ZXSpectrum-Style7";
+    letter-spacing: -10%;}
 
 table {margin-left: auto;
 margin-right: auto;
