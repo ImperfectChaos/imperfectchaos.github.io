@@ -1,5 +1,5 @@
 :root{
-    --base-color: black;
+    --base-color: rgb(15, 15, 15);
     --base-varient: black;
     --text-color: white;
     --secondary-text: white;
@@ -59,8 +59,13 @@ p, dl {color:var(--text-color);
     text-align:center;
     font-size: 18px;
     font-family: "ZXSpectrum-Style7";
-    letter-spacing: -10%;}
+    letter-spacing: -10%;
+    line-height: 16px;}
 
 table {margin-left: auto;
 margin-right: auto;
 border: transparent;}
+
+.BunnyButton {
+    text-align:center;
+  }
