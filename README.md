@@ -22,7 +22,7 @@ A Static Webpage to call my home, because I hate the modern web that much.
 - A home page
 - 404 Page
 - About me page
-- Page for my Private Minecraft Server
+- Page for my Private Minecraft Server featuring real time Plahercount and 3D Map
 - Dark mode (Light mode currently not supported)
 - Cross platform
 - Images as Hyperlinks
@@ -38,11 +38,9 @@ A Static Webpage to call my home, because I hate the modern web that much.
 
 - Account and Comment system (For said blog)
 
-- Live Playercount for my Private Minecraft Server
-
 - Optional BGM
 
-- Actually usable Hyperlinks
+- Improved resolution support
 
 - Whatever else I think is cool
 
