@@ -66,6 +66,23 @@ table {margin-left: auto;
 margin-right: auto;
 border: transparent;}
 
+  .BlogIndexReturn {
+    width: 250px;
+    height: 100px;
+    background-image: url('Img/Blog/ReturnBlog.webp');
+    background-size: cover;
+    transition: background-image 0.3s ease; 
+  }
+
+  .BlogIndexReturn:hover {
+    background-image: url('Img/Blog/BlogReturnHover.webp');
+  }
+
+  .BlogIndexReturnButton {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
 body {
 
   }

@@ -20,7 +20,9 @@ A Static Webpage to call my home, because I hate the modern web that much.
 ## Features
 
 - A home page
+- A Blog (Updated at least once a Month)
 - 404 Page
+- A Guest Book powered by [atabook](https://atabook.org/)
 - About me page
 - Page for my Private Minecraft Server featuring real time Plahercount and 3D Map
 - Dark mode (Light mode currently not supported)
@@ -34,20 +36,20 @@ A Static Webpage to call my home, because I hate the modern web that much.
 
 
 ## Roadmap
-- More Pages (Including a blog!)
+- More Pages!
 
-- Account and Comment system (For said blog)
+- Comment system (For the blog)
 
 - Optional BGM
 
-- Improved resolution support
+- Improved resolution and mobile support
 
 - Whatever else I think is cool
 
 
 ## FAQ
 
-#### Why not use https://straw.page/ or something similar?
+#### Why not use [straw.page](https://straw.page/) or something similar?
 
 I am stubborn and annoying.
 
@@ -65,5 +67,5 @@ I work on this during my lunch break at work SOMETIMES don't hold your breath.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at ImperfectChaos0@gmail.com
+If you have any feedback, please reach out to me at ImperfectChaos0@gmail.com <3
 
