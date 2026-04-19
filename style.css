@@ -1,16 +1,18 @@
 :root{
     --base-color: rgb(15, 15, 15);
-    --base-varient: black;
-    --text-color: white;
-    --secondary-text: white;
-    --test-color: green;
+    --base-varient: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255);
+    --secondary-text: rgb(255, 255, 255);
+    --accent-color: rgb(153, 50, 204);
+    --test-color: rgb(0, 128, 0);
      }
 .lightmode{
-    --base-color: white;
-    --base-varient: white;
-    --text-color: black;
-    --secondary-text: black;
-    --test-color: green;
+    --base-color: rgb(255, 255, 255);
+    --base-varient: rgb(255, 255, 255);
+    --text-color: rgb(0, 0, 0);
+    --secondary-text: rgb(0, 0, 0);
+    --accent-color: rgb(216, 112, 147);
+    --test-color: rgb(0, 128, 0);
 }
 
 #LightModeSwitch{
@@ -66,7 +68,12 @@ table {margin-left: auto;
 margin-right: auto;
 border: transparent;}
 
+.TextReadable
+{border: 10px ridge var(--accent-color);
+background-color: rgba(var(--base-varient), 0.5); }
+
   .BlogIndexReturn {
+    
     width: 250px;
     height: 100px;
     background-image: url('Img/Blog/ReturnBlog.webp');
@@ -82,3 +89,7 @@ border: transparent;}
     text-align: center;
     padding-bottom: 2%;
 }
+
+body {
+
+  }
