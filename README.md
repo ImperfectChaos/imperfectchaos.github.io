@@ -24,21 +24,18 @@ A Static Webpage to call my home, because I hate the modern web that much.
 - 404 Page
 - A Guest Book powered by [atabook](https://atabook.org/)
 - About me page
-- Page for my Private Minecraft Server featuring real time Plahercount and 3D Map
+- Page for my Private Minecraft Server featuring real time Playercount and 3D Map
 - Dark mode (Light mode currently not supported)
-- Cross platform
+- Cross platform (I hate you if you're on mobile)
 - Images as Hyperlinks
 - Text strings
 - SVG and imbedded images
-- FUNCTIONAL Minecraft Server Playercount
 - Minecraft Server Modpack Download
 - BUNNY BUTTON
 
 
 ## Roadmap
 - More Pages!
-
-- Comment system (For the blog)
 
 - Optional BGM
 
