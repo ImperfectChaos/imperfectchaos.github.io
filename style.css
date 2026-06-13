@@ -70,7 +70,7 @@ border: transparent;}
 
 .TextReadable
 {border: 10px ridge var(--accent-color);
-background-color: rgba(var(--base-varient), 0.5); }
+background-image: url('Img/BGDarkClear.png');}
 
   .BlogIndexReturn {
     
@@ -89,7 +89,3 @@ background-color: rgba(var(--base-varient), 0.5); }
     text-align: center;
     padding-bottom: 2%;
 }
-
-body {
-
-  }
