@@ -51,11 +51,17 @@
     src: url('Font/ZXSpectrum-Style7.ttf') format('truetype');
   }
 
-body {background-color: var(--base-color); background-image: url('Img/BGDark.png');}
+body {
+    background-color: var(--base-color); 
+    background-image: url('Img/BGDark.png');
+    background-attachment: fixed;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--text-color);
-    text-align:center;
-    font-family: "Mania-SpeedySpikes";}
+    text-align: center;
+    font-family: "Mania-SpeedySpikes";
+}
 
 p, dl {color:var(--text-color);
     text-align:center;
